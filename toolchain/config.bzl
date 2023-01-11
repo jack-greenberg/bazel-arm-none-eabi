@@ -16,6 +16,7 @@ def _impl(ctx):
         wrapper_path(ctx, "gcov"),
         wrapper_path(ctx, "nm"),
         wrapper_path(ctx, "objdump"),
+        wrapper_path(ctx, "objcopy"),
         wrapper_path(ctx, "strip"),
     ]
 
